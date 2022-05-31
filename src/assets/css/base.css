@@ -2,7 +2,7 @@
   --blue-400: #0045F6;
   --blue-300: #0080FF;
   --red-50: #F6EEF4;
-  --orange-50: ##F9F7F5;
+  --orange-50: #F9F7F5;
   --gray-200: #788787;
   --black-500: #000000;
   --gray-500: rgba(0, 0, 0, 0.4);
@@ -14,6 +14,9 @@
   --modal-background: var(--gray-500);
   --btn-primary: var(--blue-400);
   --icon-blue: var(--blue-300);
+
+  --text-xs: 9px;
+  --text-sm: 16px;
 }
 
 *,
@@ -30,10 +33,29 @@ body {
   min-height: 100vh;
   background: white;
   transition: color 0.5s, background-color 0.5s;
-  line-height: 1.6;
+  line-height: 1.7;
   font-family: Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Helvetica Neue', sans-serif;
   font-size: 16px;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  letter-spacing: -0.01rem;
 }
+
+
+@font-face {
+  font-family: 'Gilroy';
+  src: local('../fonts/Gilroy-ExtraBold.otf') format('truetype');
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Gilroy';
+  src: local('../fonts/Gilroy-Light.otf') format('truetype');
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
