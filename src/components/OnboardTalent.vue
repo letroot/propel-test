@@ -1,5 +1,6 @@
 <template>
   <div>
+    <CTAModal active="isModalActive" />
     <Nav />
     <div class="container">
       <SideBar />
@@ -16,6 +17,15 @@ import SideBar from "./SideBar.vue";
 import Nav from "./GlobalNav.vue";
 import KYCProgressBar from "./KYCProgressBar.vue";
 import AddPhotoKYC from "./AddPhotoKYC.vue";
+import CTAModal from "./CTAModal.vue";
+import { onMounted } from "@vue/runtime-core";
+import { ref } from "vue";
+
+let isModalActive = ref(false);
+
+onMounted(() => {
+  isModalActive = true;
+});
 </script>
 
 <style scoped>
@@ -31,6 +41,6 @@ import AddPhotoKYC from "./AddPhotoKYC.vue";
   flex-direction: column;
   margin: auto;
   margin-top: 15vh;
-  width: 
+  width: ;
 }
 </style>

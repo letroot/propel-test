@@ -9,7 +9,11 @@
         </p>
       </header>
       <div class="widget-container">
-        <img @click="uploadPhoto" src="../assets/img/upload-photo.svg" alt="upload photo button" />
+        <img
+          @click="uploadPhoto"
+          src="../assets/img/upload-photo.svg"
+          alt="upload photo button"
+        />
       </div>
       <div class="btn-container">
         <button class="primary-btn back-btn">Back</button>
@@ -21,8 +25,7 @@
 
 <script setup>
 function uploadPhoto() {
-    // do something neat
-    ;
+  // do something neat
 }
 </script>
 
@@ -68,12 +71,11 @@ p {
   border: none;
   font-weight: bold;
   font-size: 12px;
-
 }
 
 .back-btn {
-padding: 10px 15px;
-border-radius: 8px;
+  padding: 10px 15px;
+  border-radius: 8px;
   background-color: var(--orange-50);
   color: var(--gray-200);
 }
@@ -85,7 +87,7 @@ border-radius: 8px;
 .cta-btn {
   background-color: var(--cta-blue);
   color: white;
-border-radius: 9px;
+  border-radius: 9px;
   padding: 8px 12px;
 }
 </style>
