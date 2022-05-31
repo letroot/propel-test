@@ -1,5 +1,5 @@
 <script setup>
-import OnboardTalent from './components/OnboardTalent.vue';
+import OnboardTalent from "./components/OnboardTalent.vue";
 </script>
 
 <template>
@@ -9,5 +9,5 @@ import OnboardTalent from './components/OnboardTalent.vue';
 </template>
 
 <style>
-@import "./assets/base.css";
+@import "./assets/css/base.css";
 </style>

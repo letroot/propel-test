@@ -3,6 +3,7 @@
   --blue-300: #0080FF;
   --red-50: #F6EEF4;
   --orange-50: #F9F7F5;
+  --orange-60: #f6eee5;
   --gray-200: #788787;
   --black-500: #000000;
   --gray-500: rgba(0, 0, 0, 0.4);
@@ -12,11 +13,12 @@
   --border-modal: 24px;
 
   --modal-background: var(--gray-500);
-  --btn-primary: var(--blue-400);
+  --cta-blue: var(--blue-400);
   --icon-blue: var(--blue-300);
 
   --text-xs: 9px;
-  --text-sm: 16px;
+  --text-sm: 14px;
+  --text-h3: 28px;
 }
 
 *,
