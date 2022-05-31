@@ -1,7 +1,11 @@
-<script setup></script>
+<script setup>
+import OnboardTalent from './components/OnboardTalent.vue';
+</script>
 
 <template>
-  <div></div>
+  <div>
+    <OnboardTalent />
+  </div>
 </template>
 
 <style>

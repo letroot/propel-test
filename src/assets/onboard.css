@@ -1,0 +1,19 @@
+@import 'base.css';
+
+nav {
+    display: flex;
+    padding: 42px 0;
+    align-items: center;
+    height: 10vh;
+    background-color: transparent;
+    position: fixed;
+    /* border: solid 1px red; */
+}
+
+nav .nav-items {
+    margin-left: 8vw;
+}
+
+nav .nav-items img {
+    height: 36px;
+}

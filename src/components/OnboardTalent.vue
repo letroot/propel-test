@@ -1,9 +1,13 @@
 <template>
   <div>
-      
+    <Nav />
   </div>
 </template>
 
-<script setup></script>
+<script setup>
+import Nav from './GlobalNav.vue';
+</script>
 
-<style></style>
+<style>
+@import "../assets/onboard.css";
+</style>
