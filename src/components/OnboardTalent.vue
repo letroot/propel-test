@@ -41,6 +41,5 @@ onMounted(() => {
   flex-direction: column;
   margin: auto;
   margin-top: 15vh;
-  width: ;
 }
 </style>

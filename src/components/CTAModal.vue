@@ -71,7 +71,6 @@ h1 .org-title {
 article {
   padding-top: 16px;
   padding: 24px 28px;
-  padding-left: 
 }
 
 p.invite-text {
